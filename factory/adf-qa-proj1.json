@@ -1,0 +1,9 @@
+{
+	"name": "adf-qa-proj1",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d03b59f8-e42d-4b66-a687-8514352e0391",
+		"tenantId": "82ea4ec1-9c2f-4c64-8b34-65738800d7e1"
+	}
+}
