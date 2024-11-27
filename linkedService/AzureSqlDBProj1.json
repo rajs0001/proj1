@@ -1,0 +1,14 @@
+{
+	"name": "AzureSqlDBProj1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "pragara.database.windows.net",
+			"database": "sales",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	}
+}
