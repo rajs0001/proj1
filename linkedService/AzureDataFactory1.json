@@ -1,0 +1,13 @@
+{
+	"name": "AzureDataFactory1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataFactory",
+		"typeProperties": {
+			"subscriptionId": "877604ac-a44b-49a4-86be-9f0ef509d19f",
+			"resourceGroupName": "rg-dev-proj1",
+			"dataFactoryName": "adf-dev-proj1",
+			"authenticationType": "ManagedServiceIdentity"
+		}
+	}
+}
