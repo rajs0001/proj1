@@ -72,7 +72,13 @@
 							"inputs": [
 								{
 									"referenceName": "AzureSqlTableDynamic",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"schema": {
+											"value": "@item().schema",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
