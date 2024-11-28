@@ -71,7 +71,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "AzureSqlTable1",
+									"referenceName": "AzureSqlTableDynamic",
 									"type": "DatasetReference"
 								}
 							]
