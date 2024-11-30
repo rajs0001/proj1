@@ -13,10 +13,10 @@
 			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
-					"referenceName": "AzureSQLServer",
+					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "azuresqlserver"
+				"secretName": "azuresqlserver1"
 			}
 		}
 	},
