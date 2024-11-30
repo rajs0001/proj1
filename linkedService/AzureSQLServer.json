@@ -1,0 +1,10 @@
+{
+	"name": "AzureSQLServer",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://rg-dev-proj1.vault.azure.net/"
+		}
+	}
+}
