@@ -105,7 +105,13 @@
 							"outputs": [
 								{
 									"referenceName": "DS_azureDynamic",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"filename": {
+											"value": "@concat(item().schema,'_',item().table_name,'.csv')",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
