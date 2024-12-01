@@ -1,0 +1,7 @@
+{
+	"name": "ir-selfhosted1",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "self hosted runtime to extract data from sql server."
+	}
+}
